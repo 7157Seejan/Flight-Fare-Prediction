@@ -18,3 +18,6 @@ This is basicallty a Machine Learning Model for predictin the fare of flight. I 
 7) Prediction on Unseen Data
    After done with the seen data its time to get hands on on some unseen data to see the model performance.
    
+## Next Steps:
+I created the flask server to test deploy the model into real life project. For this I have written the code in python Flask.
+![Screenshot for the same is here:](screenshots/flask.png)
