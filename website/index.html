@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Fare Prediction</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <h1 class="app-name">Flight Fare Prediction</h1>
+            <form action="">
+                <div class="inputs-container">
+                    <div class="form-group">
+                        <p>Date of Journey</p>
+                        <input type="date" name="journey_date" id="journey_date" class="control-form" >
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <p>Departure Time</p>
+                        <input type="time" class="control-form" name="departure_time" id="departure_time">
+                    </div>
+                    <div class="form-group">
+                        <p>Arrival Time</p>
+                        <input type="time" class="control-form" name="arrival_time", id="arrival_time">
+                    </div>
+                    <div class="form-group">
+                        <p>Source</p>
+                        <select name="source" id="source" class="control-form source">
+                            <option value="" disabled="disabled" selected="selected">--Select Source--</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <p>Destination</p>
+                        <select name="destination" id="destination" class="control-form destination">
+                            <option value="" disabled="disabled" selected="selected">--Select Destination--</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <p>Stops</p>
+                        <select name="stops" id="stops" class="control-form stop">
+                            <option value="0" selected="selected">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <p>Airline</p>
+                        <select name="airline" id="airline" class="control-form airline">
+                            <option value="" disabled="disabled" selected="selected">--Select Airline--</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+					<button class="button-submit" onclick="predictFare()" type="button">Predict Fare</button>
+				</div>
+            </form>
+            <div id="estimated_price" class="result"><h2></h2></div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
