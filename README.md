@@ -26,3 +26,8 @@ I created the flask server to test deploy the model into real life project. For 
 ## 3.Postman
 After writing the flask server I tried to test whether the server the working or not using POSTMAN.
 ![Screenshot for the same is here:](screenshots/postman.png)
+
+
+## 4.Website
+Finally, I made live website using web development technologies like HTML,CSS,JavaScript and Ajax.
+![Screenshot for the same is here:](screenshots/website.png)
