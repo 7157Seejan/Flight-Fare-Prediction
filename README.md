@@ -2,7 +2,7 @@
 
 This is basicallty a Machine Learning Model for predictin the fare of flight. I have used RandomForestRegressor algorithm to predict the flight price.
 
-Machine Learning Model Creating Process:
+##Machine Learning Model Creating Process:
 1) Collecting the data source:
    For this I have downloaded the dataset from machine learning dataset repository i.e. Kaggle.
 2) Data Preparation
