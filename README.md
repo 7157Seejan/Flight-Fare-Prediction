@@ -2,7 +2,7 @@
 
 This is basicallty a Machine Learning Model for predictin the fare of flight. I have used RandomForestRegressor algorithm to predict the flight price.
 
-## Machine Learning Model Creating Process:
+## 1. Machine Learning Model Creating Process:
 1) Collecting the data source:
    For this I have downloaded the dataset from machine learning dataset repository i.e. Kaggle.
 2) Data Preparation
@@ -18,6 +18,11 @@ This is basicallty a Machine Learning Model for predictin the fare of flight. I 
 7) Prediction on Unseen Data
    After done with the seen data its time to get hands on on some unseen data to see the model performance.
    
-## Next Steps:
+
+## 2.Flask Server
 I created the flask server to test deploy the model into real life project. For this I have written the code in python Flask.
 ![Screenshot for the same is here:](screenshots/flask.png)
+
+## 3.Postman
+After writing the flask server I tried to test whether the server the working or not using POSTMAN.
+![Screenshot for the same is here:](screenshots/postman.png)
